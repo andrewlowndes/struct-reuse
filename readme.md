@@ -3,6 +3,10 @@ An example of re-using struct fields across multiple structs in code by storing 
 
 ## Usage
 1. Add this macro to your project
+```toml
+[dependencies]
+reusable = "0.1.0"
+```
 
 2. Add a `#[reusable(name)]` attribute to the structs you want to able to copy, where the name is a globally unique identifier for the struct (best to namespace using your crate and module names)
 
