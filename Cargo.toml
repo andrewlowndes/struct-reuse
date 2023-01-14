@@ -2,6 +2,11 @@
 name = "reusable"
 version = "0.1.0"
 edition = "2021"
+description = "Composable struct fields - reuse struct fields in other structs"
+repository = "https://github.com/andrewlowndes/struct-reuse"
+license = "MIT OR Apache-2.0"
+keywords = ["inheritance", "reuse", "dry", "macro"]
+categories = ["rust-patterns"]
 
 [lib]
 proc-macro = true
